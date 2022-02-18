@@ -13,6 +13,8 @@ test = open(path, 'r')
 test_words = test.readlines()
 # remove new line char from each word
 test_words = [word.strip() for word in test_words]
+# change all alphabetic characters to lower case
+test_words = [word.lower() for word in test_words]
 
 # getting directory to pre-trained W2V model,
 # assuming current working directory is ..\assignment-3
