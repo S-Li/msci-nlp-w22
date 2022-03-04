@@ -1,0 +1,312 @@
+Max sentence length:  11
+Model: "sequential"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+embedding (Embedding)        (None, 11, 100)           14192600
+_________________________________________________________________
+flatten (Flatten)            (None, 1100)              0
+_________________________________________________________________
+dense_1 (Dense)              (None, 10)                11010
+_________________________________________________________________
+dropout (Dropout)            (None, 10)                0
+_________________________________________________________________
+dense (Dense)                (None, 2)                 22
+=================================================================
+Total params: 14,203,632
+Trainable params: 11,032
+Non-trainable params: 14,192,600
+_________________________________________________________________
+None
+
+
+training.....
+
+
+training ffnn with activation func:  relu       drop out rate:  0.5
+<keras.engine.sequential.Sequential object at 0x0000025196586BA8>
+2022-03-04 00:31:19.963916: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:185] None of the MLIR Optimization Passes are enabled (registered 2)
+Epoch 1/10
+21273/21273 [==============================] - 32s 1ms/step - loss: 0.6385 - accuracy: 0.6880 - val_loss: 0.6164 - val_accuracy: 0.7074
+Epoch 2/10
+21273/21273 [==============================] - 31s 1ms/step - loss: 0.6344 - accuracy: 0.6912 - val_loss: 0.6150 - val_accuracy: 0.7113
+Epoch 3/10
+21273/21273 [==============================] - 30s 1ms/step - loss: 0.6349 - accuracy: 0.6903 - val_loss: 0.6126 - val_accuracy: 0.7092
+Epoch 4/10
+21273/21273 [==============================] - 30s 1ms/step - loss: 0.6350 - accuracy: 0.6897 - val_loss: 0.6136 - val_accuracy: 0.7080
+Epoch 5/10
+21273/21273 [==============================] - 30s 1ms/step - loss: 0.6347 - accuracy: 0.6908 - val_loss: 0.6172 - val_accuracy: 0.7054
+Epoch 6/10
+21273/21273 [==============================] - 30s 1ms/step - loss: 0.6348 - accuracy: 0.6912 - val_loss: 0.6176 - val_accuracy: 0.7099
+Epoch 7/10
+21273/21273 [==============================] - 31s 1ms/step - loss: 0.6347 - accuracy: 0.6909 - val_loss: 0.6131 - val_accuracy: 0.7093
+Epoch 8/10
+21273/21273 [==============================] - 30s 1ms/step - loss: 0.6347 - accuracy: 0.6907 - val_loss: 0.6145 - val_accuracy: 0.7078
+Epoch 9/10
+21273/21273 [==============================] - 31s 1ms/step - loss: 0.6348 - accuracy: 0.6909 - val_loss: 0.6156 - val_accuracy: 0.7070
+Epoch 10/10
+21273/21273 [==============================] - 40s 2ms/step - loss: 0.6346 - accuracy: 0.6909 - val_loss: 0.6146 - val_accuracy: 0.7058
+
+
+training ffnn with activation func:  relu       drop out rate:  0.2
+<keras.engine.sequential.Sequential object at 0x0000025196887F60>
+Epoch 1/10
+21273/21273 [==============================] - 35s 2ms/step - loss: 0.6164 - accuracy: 0.7031 - val_loss: 0.6062 - val_accuracy: 0.7123
+Epoch 2/10
+21273/21273 [==============================] - 32s 2ms/step - loss: 0.6159 - accuracy: 0.7038 - val_loss: 0.6238 - val_accuracy: 0.6922
+Epoch 3/10
+21273/21273 [==============================] - 31s 1ms/step - loss: 0.6160 - accuracy: 0.7030 - val_loss: 0.6080 - val_accuracy: 0.7088
+Epoch 4/10
+21273/21273 [==============================] - 30s 1ms/step - loss: 0.6155 - accuracy: 0.7027 - val_loss: 0.6108 - val_accuracy: 0.7056
+Epoch 5/10
+21273/21273 [==============================] - 31s 1ms/step - loss: 0.6157 - accuracy: 0.7031 - val_loss: 0.6090 - val_accuracy: 0.7079
+Epoch 6/10
+21273/21273 [==============================] - 32s 2ms/step - loss: 0.6155 - accuracy: 0.7033 - val_loss: 0.6100 - val_accuracy: 0.7047
+Epoch 7/10
+21273/21273 [==============================] - 30s 1ms/step - loss: 0.6158 - accuracy: 0.7022 - val_loss: 0.6102 - val_accuracy: 0.7060
+Epoch 8/10
+21273/21273 [==============================] - 33s 2ms/step - loss: 0.6156 - accuracy: 0.7030 - val_loss: 0.6149 - val_accuracy: 0.7010
+Epoch 9/10
+21273/21273 [==============================] - 30s 1ms/step - loss: 0.6158 - accuracy: 0.7032 - val_loss: 0.6093 - val_accuracy: 0.7071
+Epoch 10/10
+21273/21273 [==============================] - 31s 1ms/step - loss: 0.6159 - accuracy: 0.7029 - val_loss: 0.6092 - val_accuracy: 0.7088
+
+
+training ffnn with activation func:  relu       drop out rate:  0.05
+<keras.engine.sequential.Sequential object at 0x00000251968D0860>
+Epoch 1/10
+21273/21273 [==============================] - 31s 1ms/step - loss: 0.6070 - accuracy: 0.7055 - val_loss: 0.6046 - val_accuracy: 0.7065
+Epoch 2/10
+21273/21273 [==============================] - 30s 1ms/step - loss: 0.6037 - accuracy: 0.7072 - val_loss: 0.6010 - val_accuracy: 0.7097
+Epoch 3/10
+21273/21273 [==============================] - 30s 1ms/step - loss: 0.6027 - accuracy: 0.7070 - val_loss: 0.5989 - val_accuracy: 0.7121
+Epoch 4/10
+21273/21273 [==============================] - 30s 1ms/step - loss: 0.6029 - accuracy: 0.7070 - val_loss: 0.5984 - val_accuracy: 0.7123
+Epoch 5/10
+21273/21273 [==============================] - 31s 1ms/step - loss: 0.6029 - accuracy: 0.7078 - val_loss: 0.6023 - val_accuracy: 0.7104
+Epoch 6/10
+21273/21273 [==============================] - 31s 1ms/step - loss: 0.6028 - accuracy: 0.7073 - val_loss: 0.5972 - val_accuracy: 0.7116
+Epoch 7/10
+21273/21273 [==============================] - 30s 1ms/step - loss: 0.6029 - accuracy: 0.7074 - val_loss: 0.6036 - val_accuracy: 0.7064
+Epoch 8/10
+21273/21273 [==============================] - 34s 2ms/step - loss: 0.6027 - accuracy: 0.7074 - val_loss: 0.5980 - val_accuracy: 0.7117
+Epoch 9/10
+21273/21273 [==============================] - 30s 1ms/step - loss: 0.6028 - accuracy: 0.7080 - val_loss: 0.5988 - val_accuracy: 0.7111
+Epoch 10/10
+21273/21273 [==============================] - 31s 1ms/step - loss: 0.6030 - accuracy: 0.7073 - val_loss: 0.5987 - val_accuracy: 0.7105
+
+
+training ffnn with activation func:  sigmoid    drop out rate:  0.5
+<keras.engine.sequential.Sequential object at 0x00000251968E6B38>
+Epoch 1/10
+21273/21273 [==============================] - 35s 2ms/step - loss: 0.6805 - accuracy: 0.6379 - val_loss: 0.6665 - val_accuracy: 0.6938
+Epoch 2/10
+21273/21273 [==============================] - 33s 2ms/step - loss: 0.6781 - accuracy: 0.6482 - val_loss: 0.6653 - val_accuracy: 0.6954
+Epoch 3/10
+21273/21273 [==============================] - 29s 1ms/step - loss: 0.6777 - accuracy: 0.6496 - val_loss: 0.6653 - val_accuracy: 0.6957
+Epoch 4/10
+21273/21273 [==============================] - 30s 1ms/step - loss: 0.6780 - accuracy: 0.6488 - val_loss: 0.6638 - val_accuracy: 0.6992
+Epoch 5/10
+21273/21273 [==============================] - 30s 1ms/step - loss: 0.6780 - accuracy: 0.6491 - val_loss: 0.6653 - val_accuracy: 0.6946
+Epoch 6/10
+21273/21273 [==============================] - 31s 1ms/step - loss: 0.6776 - accuracy: 0.6504 - val_loss: 0.6668 - val_accuracy: 0.6899
+Epoch 7/10
+21273/21273 [==============================] - 30s 1ms/step - loss: 0.6779 - accuracy: 0.6494 - val_loss: 0.6650 - val_accuracy: 0.6939
+Epoch 8/10
+21273/21273 [==============================] - 34s 2ms/step - loss: 0.6779 - accuracy: 0.6491 - val_loss: 0.6642 - val_accuracy: 0.6935
+Epoch 9/10
+21273/21273 [==============================] - 30s 1ms/step - loss: 0.6779 - accuracy: 0.6499 - val_loss: 0.6659 - val_accuracy: 0.6955
+Epoch 10/10
+21273/21273 [==============================] - 31s 1ms/step - loss: 0.6780 - accuracy: 0.6498 - val_loss: 0.6636 - val_accuracy: 0.6960
+
+
+training ffnn with activation func:  sigmoid    drop out rate:  0.2
+<keras.engine.sequential.Sequential object at 0x00000251968E6C50>
+Epoch 1/10
+21273/21273 [==============================] - 34s 2ms/step - loss: 0.6642 - accuracy: 0.6813 - val_loss: 0.6588 - val_accuracy: 0.6943
+Epoch 2/10
+21273/21273 [==============================] - 29s 1ms/step - loss: 0.6642 - accuracy: 0.6812 - val_loss: 0.6591 - val_accuracy: 0.6962
+Epoch 3/10
+21273/21273 [==============================] - 30s 1ms/step - loss: 0.6641 - accuracy: 0.6814 - val_loss: 0.6577 - val_accuracy: 0.6986
+Epoch 4/10
+21273/21273 [==============================] - 30s 1ms/step - loss: 0.6641 - accuracy: 0.6813 - val_loss: 0.6572 - val_accuracy: 0.6994
+Epoch 5/10
+21273/21273 [==============================] - 30s 1ms/step - loss: 0.6643 - accuracy: 0.6804 - val_loss: 0.6571 - val_accuracy: 0.7000
+Epoch 6/10
+21273/21273 [==============================] - 30s 1ms/step - loss: 0.6642 - accuracy: 0.6811 - val_loss: 0.6604 - val_accuracy: 0.6952
+Epoch 7/10
+21273/21273 [==============================] - 31s 1ms/step - loss: 0.6642 - accuracy: 0.6809 - val_loss: 0.6573 - val_accuracy: 0.6981
+Epoch 8/10
+21273/21273 [==============================] - 34s 2ms/step - loss: 0.6640 - accuracy: 0.6812 - val_loss: 0.6574 - val_accuracy: 0.6976
+Epoch 9/10
+21273/21273 [==============================] - 30s 1ms/step - loss: 0.6646 - accuracy: 0.6799 - val_loss: 0.6569 - val_accuracy: 0.7003
+Epoch 10/10
+21273/21273 [==============================] - 29s 1ms/step - loss: 0.6642 - accuracy: 0.6812 - val_loss: 0.6562 - val_accuracy: 0.7000
+
+
+training ffnn with activation func:  sigmoid    drop out rate:  0.05
+<keras.engine.sequential.Sequential object at 0x0000025196908550>
+Epoch 1/10
+21273/21273 [==============================] - 30s 1ms/step - loss: 0.6578 - accuracy: 0.6940 - val_loss: 0.6563 - val_accuracy: 0.6993
+Epoch 2/10
+21273/21273 [==============================] - 31s 1ms/step - loss: 0.6577 - accuracy: 0.6940 - val_loss: 0.6544 - val_accuracy: 0.7028
+Epoch 3/10
+21273/21273 [==============================] - 29s 1ms/step - loss: 0.6578 - accuracy: 0.6940 - val_loss: 0.6545 - val_accuracy: 0.7027
+Epoch 4/10
+21273/21273 [==============================] - 32s 2ms/step - loss: 0.6575 - accuracy: 0.6947 - val_loss: 0.6564 - val_accuracy: 0.7005
+Epoch 5/10
+21273/21273 [==============================] - 29s 1ms/step - loss: 0.6576 - accuracy: 0.6944 - val_loss: 0.6570 - val_accuracy: 0.6954
+Epoch 6/10
+21273/21273 [==============================] - 33s 2ms/step - loss: 0.6577 - accuracy: 0.6941 - val_loss: 0.6553 - val_accuracy: 0.6990
+Epoch 7/10
+21273/21273 [==============================] - 30s 1ms/step - loss: 0.6576 - accuracy: 0.6943 - val_loss: 0.6559 - val_accuracy: 0.6988
+Epoch 8/10
+21273/21273 [==============================] - 31s 1ms/step - loss: 0.6578 - accuracy: 0.6939 - val_loss: 0.6564 - val_accuracy: 0.7003
+Epoch 9/10
+21273/21273 [==============================] - 29s 1ms/step - loss: 0.6578 - accuracy: 0.6942 - val_loss: 0.6568 - val_accuracy: 0.6989
+Epoch 10/10
+21273/21273 [==============================] - 35s 2ms/step - loss: 0.6577 - accuracy: 0.6943 - val_loss: 0.6543 - val_accuracy: 0.7008
+
+
+training ffnn with activation func:  tanh       drop out rate:  0.5
+<keras.engine.sequential.Sequential object at 0x000002519690FD30>
+Epoch 1/10
+21273/21273 [==============================] - 30s 1ms/step - loss: 0.6291 - accuracy: 0.7009 - val_loss: 0.6136 - val_accuracy: 0.7102
+Epoch 2/10
+21273/21273 [==============================] - 32s 1ms/step - loss: 0.6244 - accuracy: 0.7031 - val_loss: 0.6128 - val_accuracy: 0.7113
+Epoch 3/10
+21273/21273 [==============================] - 28s 1ms/step - loss: 0.6242 - accuracy: 0.7037 - val_loss: 0.6248 - val_accuracy: 0.6967
+Epoch 4/10
+21273/21273 [==============================] - 30s 1ms/step - loss: 0.6242 - accuracy: 0.7032 - val_loss: 0.6278 - val_accuracy: 0.6915
+Epoch 5/10
+21273/21273 [==============================] - 33s 2ms/step - loss: 0.6241 - accuracy: 0.7035 - val_loss: 0.6168 - val_accuracy: 0.7027
+Epoch 6/10
+21273/21273 [==============================] - 30s 1ms/step - loss: 0.6243 - accuracy: 0.7037 - val_loss: 0.6162 - val_accuracy: 0.7055
+Epoch 7/10
+21273/21273 [==============================] - 34s 2ms/step - loss: 0.6243 - accuracy: 0.7034 - val_loss: 0.6173 - val_accuracy: 0.7044
+Epoch 8/10
+21273/21273 [==============================] - 30s 1ms/step - loss: 0.6241 - accuracy: 0.7034 - val_loss: 0.6169 - val_accuracy: 0.7051
+Epoch 9/10
+21273/21273 [==============================] - 30s 1ms/step - loss: 0.6242 - accuracy: 0.7032 - val_loss: 0.6132 - val_accuracy: 0.7093
+Epoch 10/10
+21273/21273 [==============================] - 31s 1ms/step - loss: 0.6243 - accuracy: 0.7036 - val_loss: 0.6126 - val_accuracy: 0.7086
+
+
+training ffnn with activation func:  tanh       drop out rate:  0.2
+<keras.engine.sequential.Sequential object at 0x0000025196921F98>
+Epoch 1/10
+21273/21273 [==============================] - 30s 1ms/step - loss: 0.6131 - accuracy: 0.7054 - val_loss: 0.6170 - val_accuracy: 0.7003
+Epoch 2/10
+21273/21273 [==============================] - 30s 1ms/step - loss: 0.6131 - accuracy: 0.7057 - val_loss: 0.6094 - val_accuracy: 0.7073
+Epoch 3/10
+21273/21273 [==============================] - 31s 1ms/step - loss: 0.6132 - accuracy: 0.7056 - val_loss: 0.6108 - val_accuracy: 0.7078
+Epoch 4/10
+21273/21273 [==============================] - 30s 1ms/step - loss: 0.6132 - accuracy: 0.7058 - val_loss: 0.6160 - val_accuracy: 0.7009
+Epoch 5/10
+21273/21273 [==============================] - 31s 1ms/step - loss: 0.6131 - accuracy: 0.7056 - val_loss: 0.6111 - val_accuracy: 0.7062
+Epoch 6/10
+21273/21273 [==============================] - 33s 2ms/step - loss: 0.6131 - accuracy: 0.7053 - val_loss: 0.6086 - val_accuracy: 0.7080
+Epoch 7/10
+21273/21273 [==============================] - 30s 1ms/step - loss: 0.6130 - accuracy: 0.7055 - val_loss: 0.6120 - val_accuracy: 0.7063
+Epoch 8/10
+21273/21273 [==============================] - 34s 2ms/step - loss: 0.6130 - accuracy: 0.7059 - val_loss: 0.6106 - val_accuracy: 0.7072
+Epoch 9/10
+21273/21273 [==============================] - 30s 1ms/step - loss: 0.6129 - accuracy: 0.7057 - val_loss: 0.6111 - val_accuracy: 0.7060
+Epoch 10/10
+21273/21273 [==============================] - 29s 1ms/step - loss: 0.6129 - accuracy: 0.7057 - val_loss: 0.6106 - val_accuracy: 0.7063
+
+
+training ffnn with activation func:  tanh       drop out rate:  0.05
+<keras.engine.sequential.Sequential object at 0x000002519693C5C0>
+Epoch 1/10
+21273/21273 [==============================] - 32s 1ms/step - loss: 0.6096 - accuracy: 0.7054 - val_loss: 0.6129 - val_accuracy: 0.7008
+Epoch 2/10
+21273/21273 [==============================] - 29s 1ms/step - loss: 0.6094 - accuracy: 0.7055 - val_loss: 0.6118 - val_accuracy: 0.7029
+Epoch 3/10
+21273/21273 [==============================] - 31s 1ms/step - loss: 0.6089 - accuracy: 0.7055 - val_loss: 0.6128 - val_accuracy: 0.7011
+Epoch 4/10
+21273/21273 [==============================] - 32s 2ms/step - loss: 0.6089 - accuracy: 0.7058 - val_loss: 0.6089 - val_accuracy: 0.7063
+Epoch 5/10
+21273/21273 [==============================] - 30s 1ms/step - loss: 0.6090 - accuracy: 0.7054 - val_loss: 0.6065 - val_accuracy: 0.7078
+Epoch 6/10
+21273/21273 [==============================] - 31s 1ms/step - loss: 0.6088 - accuracy: 0.7062 - val_loss: 0.6124 - val_accuracy: 0.7021
+Epoch 7/10
+21273/21273 [==============================] - 30s 1ms/step - loss: 0.6089 - accuracy: 0.7058 - val_loss: 0.6092 - val_accuracy: 0.7063
+Epoch 8/10
+21273/21273 [==============================] - 29s 1ms/step - loss: 0.6088 - accuracy: 0.7061 - val_loss: 0.6097 - val_accuracy: 0.7043
+Epoch 9/10
+21273/21273 [==============================] - 34s 2ms/step - loss: 0.6087 - accuracy: 0.7059 - val_loss: 0.6061 - val_accuracy: 0.7087
+Epoch 10/10
+21273/21273 [==============================] - 29s 1ms/step - loss: 0.6089 - accuracy: 0.7058 - val_loss: 0.6053 - val_accuracy: 0.7075
+
+
+testing.....
+
+
+
+
+testing ffnn with activation func:  relu        drop out rate:  0.5
+<keras.engine.sequential.Sequential object at 0x0000025196586BA8>
+2526/2526 [==============================] - 2s 971us/step - loss: 0.6282 - accuracy: 0.6982
+activation func:  relu  drop out rate:  0.5      accuracy 69.82231736183167
+best model - activation:  relu  drop out rate:  0.5
+
+
+testing ffnn with activation func:  relu        drop out rate:  0.2
+<keras.engine.sequential.Sequential object at 0x0000025196887F60>
+2526/2526 [==============================] - 2s 953us/step - loss: 0.6282 - accuracy: 0.6982
+activation func:  relu  drop out rate:  0.2      accuracy 69.82231736183167
+
+
+testing ffnn with activation func:  relu        drop out rate:  0.05
+<keras.engine.sequential.Sequential object at 0x00000251968D0860>
+2526/2526 [==============================] - 2s 960us/step - loss: 0.6282 - accuracy: 0.6982
+activation func:  relu  drop out rate:  0.05     accuracy 69.82231736183167
+
+
+testing ffnn with activation func:  sigmoid     drop out rate:  0.5
+<keras.engine.sequential.Sequential object at 0x00000251968E6B38>
+2526/2526 [==============================] - 3s 991us/step - loss: 0.6868 - accuracy: 0.5826
+activation func:  sigmoid       drop out rate:  0.5      accuracy 58.263009786605835
+best model - activation:  sigmoid       drop out rate:  0.5
+
+
+testing ffnn with activation func:  sigmoid     drop out rate:  0.2
+<keras.engine.sequential.Sequential object at 0x00000251968E6C50>
+2526/2526 [==============================] - 3s 1ms/step - loss: 0.6868 - accuracy: 0.5826
+activation func:  sigmoid       drop out rate:  0.2      accuracy 58.263009786605835
+
+
+testing ffnn with activation func:  sigmoid     drop out rate:  0.05
+<keras.engine.sequential.Sequential object at 0x0000025196908550>
+2526/2526 [==============================] - 3s 1ms/step - loss: 0.6868 - accuracy: 0.5826
+activation func:  sigmoid       drop out rate:  0.05     accuracy 58.263009786605835
+
+
+testing ffnn with activation func:  tanh        drop out rate:  0.5
+<keras.engine.sequential.Sequential object at 0x000002519690FD30>
+2526/2526 [==============================] - 2s 974us/step - loss: 0.6039 - accuracy: 0.7059
+activation func:  tanh  drop out rate:  0.5      accuracy 70.59194445610046
+best model - activation:  tanh  drop out rate:  0.5
+
+
+testing ffnn with activation func:  tanh        drop out rate:  0.2
+<keras.engine.sequential.Sequential object at 0x0000025196921F98>
+2526/2526 [==============================] - 2s 977us/step - loss: 0.6039 - accuracy: 0.7059
+activation func:  tanh  drop out rate:  0.2      accuracy 70.59194445610046
+
+
+testing ffnn with activation func:  tanh        drop out rate:  0.05
+<keras.engine.sequential.Sequential object at 0x000002519693C5C0>
+2526/2526 [==============================] - 2s 975us/step - loss: 0.6039 - accuracy: 0.7059
+activation func:  tanh  drop out rate:  0.05     accuracy 70.59194445610046
+
+
+{'relu': <keras.engine.sequential.Sequential object at 0x0000025196586BA8>, 'sigmoid': <keras.engine.sequential.Sequential object at 0x00000251968E6B38>, 'tanh': <keras.engine.sequential.Sequential object at 0x000002519690FD30>}
+
+for activation  relu  saving  <keras.engine.sequential.Sequential object at 0x0000025196586BA8>
+2022-03-04 01:18:11.124710: W tensorflow/python/util/util.cc:348] Sets are not currently considered sequences, but this may change in the future, so consider avoiding using them.
+
+for activation  sigmoid  saving  <keras.engine.sequential.Sequential object at 0x00000251968E6B38>
+
+for activation  tanh  saving  <keras.engine.sequential.Sequential object at 0x000002519690FD30>

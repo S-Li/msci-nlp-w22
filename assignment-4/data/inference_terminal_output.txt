@@ -1,0 +1,63 @@
+(.venv) PS C:\Users\xsusa\repos\msci-nlp-w22\assignment-4> py .\inference.py "C:\\Users\\xsusa\\repos\\msci-nlp-w22\\assignment-4\\data\\eval.csv" "relu"
+sentence:        quite,satisfied,product
+prediction:  [0.5849842  0.41501576]    sentiment: negative
+
+sentence:        overall,disappointed,accept,
+prediction:  [0.59471995 0.40528005]    sentiment: negative
+
+sentence:        good,alternative,cheap,affordable,prices
+prediction:  [0.22614415 0.7738558 ]    sentiment: positive
+
+sentence:        recommend,all,friends,family
+prediction:  [0.32340458 0.67659545]    sentiment: positive
+
+sentence:        just,cant,wait,buy,more
+prediction:  [0.44986632 0.5501337 ]    sentiment: positive
+
+sentence:        took,forever,arrive,broke,right,away
+prediction:  [0.5585326  0.44146743]    sentiment: negative
+
+sentence:        return,immediately,waste,money,time,
+prediction:  [0.60633916 0.39366084]    sentiment: negative
+(.venv) PS C:\Users\xsusa\repos\msci-nlp-w22\assignment-4> py .\inference.py "C:\\Users\\xsusa\\repos\\msci-nlp-w22\\assignment-4\\data\\eval.csv" "sigmoid"
+sentence:        quite,satisfied,product
+prediction:  [0.36033416 0.6396658 ]    sentiment: positive
+
+sentence:        overall,disappointed,accept,
+prediction:  [0.42623958 0.57376045]    sentiment: positive
+
+sentence:        good,alternative,cheap,affordable,prices
+prediction:  [0.30435327 0.69564676]    sentiment: positive
+
+sentence:        recommend,all,friends,family
+prediction:  [0.2765543  0.72344565]    sentiment: positive
+
+sentence:        just,cant,wait,buy,more
+prediction:  [0.33557165 0.66442835]    sentiment: positive
+
+sentence:        took,forever,arrive,broke,right,away
+prediction:  [0.5114128  0.48858723]    sentiment: negative
+
+sentence:        return,immediately,waste,money,time,
+prediction:  [0.43989837 0.5601017 ]    sentiment: positive
+(.venv) PS C:\Users\xsusa\repos\msci-nlp-w22\assignment-4> py .\inference.py "C:\\Users\\xsusa\\repos\\msci-nlp-w22\\assignment-4\\data\\eval.csv" "tanh"
+sentence:        quite,satisfied,product
+prediction:  [0.67177504 0.328225  ]    sentiment: negative
+
+sentence:        overall,disappointed,accept,
+prediction:  [0.78888285 0.21111716]    sentiment: negative
+
+sentence:        good,alternative,cheap,affordable,prices
+prediction:  [0.33223954 0.66776055]    sentiment: positive
+
+sentence:        recommend,all,friends,family
+prediction:  [0.35828102 0.641719  ]    sentiment: positive
+
+sentence:        just,cant,wait,buy,more
+prediction:  [0.627861 0.372139]        sentiment: negative
+
+sentence:        took,forever,arrive,broke,right,away
+prediction:  [0.86286235 0.13713764]    sentiment: negative
+
+sentence:        return,immediately,waste,money,time,
+prediction:  [0.69626725 0.30373275]    sentiment: negative
